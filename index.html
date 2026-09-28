@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/cadastro.css">
+        <title>Crie sua conta no Google</title>
+    </head>
+    <body>
+        <div>
+            <main>
+                <section id="principal">
+                    <div>
+                        <img id="logo" src="./img/logotipo.png" alt="google">
+                        <h1>Crie uma conta do Google</h1>
+                        <p>Insira seu nome</p>
+                    </div>
+                    <form>
+                        <div class="field">
+                            <label for="nome">Nome</label>
+                            <input id="nome" name="nome" type="text" placeholder="Ex: João" required>
+                        </div>
+                        <div class="field">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input id="sobrenome" name="sobrenome" type="text" placeholder="Sobrenome (opcional)" required>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary" type="button">Fazer login</button>
+                            <button class="btn btn-primary" type="submit">Avançar</button>
+                        </div>
+                    </form>
+                </section>
+                <section id="navegacao">
+                    <select name="idioma">
+                        <option value="portugues(Brasil)">Português (Brasil)</option>
+                        <option value="ingles">Inglês</option>
+                        <option value="frances">Francês</option>
+                        <option value="espanhol">Esponhol</option>
+                    </select>
+                    <ul>
+                        <li>Ajuda</li>
+                        <li>Privacidade</li>
+                        <li>Termos</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

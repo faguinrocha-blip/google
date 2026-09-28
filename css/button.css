@@ -1,0 +1,17 @@
+button.btn {
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: 0,8s;
+    cursor: pointer;
+}
+    button.btn-primary {
+        background-color: #0745a8;
+        color: #ffffff;
+
+    }
+    button.btn-primary:hover {
+        background-color: #042761 ;
+    }
+
